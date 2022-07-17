@@ -5,6 +5,6 @@ An imaginary dating app for dogs. The website is designed to be responsive and i
 Here’s a link to the site: 
 
 Frameworks and libraries used: 
-HTML
-CSS
+HTML,
+CSS,
 Bootstrap 5
