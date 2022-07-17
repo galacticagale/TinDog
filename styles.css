@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat';
+    font: 'Montserrat-Bold';
+}
+
+p {
+  font-size: 0.9rem;
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Title section  */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* Title image */
+.iphone-img {
+  position: absolute;
+  width: 20%;
+  transform: rotate(25deg);
+  right: 30%;
+  z-index: 2;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font: 'Ubuntu, sans-serif';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  font: 'Montserrat-Light';
+}
+
+/* Feature section */
+
+#features {
+  position: relative;
+  z-index: 3;
+}
+
+.feature-heading {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Icons */
+#icons-title {
+  color: #ef8172;
+}
+
+#icons-title:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.pricing-col {
+  padding: 3% 2%;;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 70%;
+    right: 30%;
+    z-index: 2;
+  }
+}
+
+/* Call to Action section */
+
+/* Footer section */
+
+#footer-icon {
+  margin: 20px 10px;
+}
