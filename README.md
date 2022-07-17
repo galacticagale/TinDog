@@ -1,5 +1,4 @@
 # TinDog
-Mock-up of a dating site for dogs
 
 An imaginary dating app for dogs. The website is designed to be responsive and includes 5 sections. 
 
